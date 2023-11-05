@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">Kayıt</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">İsim</span>
+                    <input type="text" name="fullname" id="fullname" placeholder="Lütfen isminizi giriniz" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Kullanıcı Adı</span>
+                    <input type="text" name="username" id="username" placeholder="Lütfen kullanıcı adınızı giriniz" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">E-posta</span>
+                    <input type="text" name="Email" id="Email" placeholder="Lütfen e-posta adresinizi giriniz" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Telefon Numarası</span>
+                    <input type="text" name="phonenumber" id="phonenumber" placeholder="Lütfen telefon numaranızı giriniz" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Şifre</span>
+                    <input type="text" name="password" id="password" placeholder="Lütfen şifrenizi giriniz" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Şifreyi Doğrula</span>
+                    <input type="text" name="password" id="password" placeholder="Lütfen şifrenizi tekrar giriniz" required>
+                </div>
+            </div>
+
+            <div class="gender-details">
+                <input type="radio" id="dot-1" name="gender">
+                <input type="radio" id="dot-2" name="gender">
+                <input type="radio" id="dot-3" name="gender">
+                <span class="gender-title">Cinsiyet</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Erkek</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Kadın</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">Belirtmek İstemiyorum</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Kayıt Ol" >
+            </div>
+
+        </form>
+    </div>
+
+
+</body>
+</html>
